@@ -1,0 +1,99 @@
+a.add-plus {
+  font-family: "Nunito";
+  color: brown;
+  line-height: 1.2;
+  top: -20px;
+  text-decoration: none;
+  display: block;
+  /* position: relative; */
+  margin: 0;
+  border: 0px;
+  box-sizing: border-box;
+  background-color: white;
+  text-align: center;
+  height: 50px;
+  width: 200px;
+  padding: 15px;
+  border-radius: 40%;
+}
+
+.navbar-brand span {
+  color: white;
+}
+
+.navbar-collapse {
+  display: flex;
+}
+ul.navbar-nav {
+  justify-content: flex-end;
+  margin-left: 55% !important;
+}
+
+.home-page {
+  background-image: url(/Images/background-img.jpg);
+  height: 900px;
+  background-repeat: no-repeat;
+}
+
+/* .home-page:before {
+  content: "";
+  background-color: rgb(29, 41, 62);
+  opacity: 0.6;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 100%;
+} */
+
+.find h2, p {
+  color: white;
+}
+
+.find {
+  box-sizing: border-box;
+  padding-top: 400px;
+  padding-left: 700px;
+}
+
+.btn-search {
+  background-color: red;
+  color: white;
+  border-color: red;
+}
+
+.btn-search:hover {
+  background-color: white;
+  color: red;
+  border-color: red;
+}
+
+.nav-search {
+  background-color: rgba(255,255,255, .15);
+  border-radius: 8px;
+  content: "";
+  position: absolute;
+  box-sizing: border-box;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+
+
+a.advanced {
+  background-color: white;
+  color: black;
+  text-align: center;
+}
+
+.input-srch {
+  box-sizing: border-box;
+  margin: 15px;
+  border-radius: 8px;
+}
+
+
+.apartment {
+  color: red;
+}
