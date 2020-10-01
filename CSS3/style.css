@@ -163,12 +163,93 @@ p.city-p {
 
 
 .testimonials {
-  background-color: black;
-  height: 500px;
+  background-image: url(/Images/bg-img.jpg);
+  height: 700px;
   box-sizing: border-box;
   padding: 40px;
 }
 
-.testimonials:hover {
-  background-color: rgb(58, 54, 54);
+
+.img-silva {
+  box-sizing: border-box;
+  padding: 80px;
+}
+
+
+.articles-tips {
+  box-sizing: border-box;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.card-business {
+  color: red;
+}
+
+.city-business {
+  color: black;
+  font-size: 20px;
+}
+
+.business-img {
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.articles-tips {
+  background-color: #c7bbbb;
+}
+
+.partners {
+  box-sizing: border-box;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.logos {
+  box-sizing: border-box;
+  padding-top: 30px;
+}
+
+.logos-abc {
+  display: flex;
+  justify-content: space-between;
+}
+
+.become {
+  box-sizing: border-box;
+  padding-top: 70px;
+  padding-bottom: 50px;
+  background-color: red;
+  height: 200px;
+}
+
+.become-agent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-register {
+  box-sizing: border-box;
+  padding: 20px;
+  background-color: rgb(187, 70, 70);
+  color: white;
+  border-color:  rgb(187, 70, 70);
+}
+
+.btn-register:hover {
+  background-color: green;
+  border-color: green;
+}
+
+
+
+
+
+
+
+
+.register-p {
+  font-size: 20px;
+  font-weight: 15px;
 }
