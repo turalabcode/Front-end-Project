@@ -9,12 +9,22 @@ a.add-plus {
   margin: 0;
   border: 0px;
   box-sizing: border-box;
-  background-color: white;
+  background-color: #ff5a5f;
   text-align: center;
   height: 50px;
   width: 200px;
   padding: 15px;
-  border-radius: 40%;
+  border-radius: 25px;
+}
+
+.flaticon-plus {
+  font-size: 20px;
+  color: white;
+}
+
+.create-listing {
+  font-size: 20px;
+  color: white;
 }
 
 .navbar-brand span {
@@ -243,13 +253,56 @@ p.city-p {
 }
 
 
+.footer-1 {
+  background-color: #24324a;
+}
 
 
+.footer-row {
+  box-sizing: border-box;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 
+.footer-end {
+  color: white;
+}
 
+li.footer-end {
+  list-style-type: none;
+}
 
 
 .register-p {
   font-size: 20px;
   font-weight: 15px;
+}
+
+
+.your-email {
+  background-color: #3a4c6b;
+  font-size: 20px;
+  border-radius: 25px;
+}
+
+
+
+.made-with-love {
+  box-sizing: border-box;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #395079;
+}
+
+.a-end {
+  color: #8193b1e0;
+}
+
+.a-end:hover {
+  color: white;
+}
+
+.row-end {
+  display: flex;
+  justify-content: space-between;
 }
