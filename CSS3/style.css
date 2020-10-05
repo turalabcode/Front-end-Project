@@ -306,3 +306,66 @@ li.footer-end {
   display: flex;
   justify-content: space-between;
 }
+
+/* Bu sətrdən artıq Listing başlayır. */
+
+.search-text {
+  border-radius: 25px;
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+.form-group {
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.first-div {
+  background-color: rgb(173, 169, 169);
+}
+
+.listing-grid {
+  box-sizing: border-box;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.listing {
+  box-sizing: border-box;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.second-div {
+  box-sizing: border-box;
+  padding: 40px;
+}
+
+.card {
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.card-box {
+  box-sizing: border-box;
+  padding: 10px;
+}
+.form-box {
+  display: flex;
+}
+
+.p-9 {
+  color: black;
+}
+
+.all-status1 {
+  /* display: inline-block; */
+  box-sizing: border-box;
+  padding: 0px;
+}
+
+.all-status2 {
+  /* display: inline-block; */
+  box-sizing: border-box;
+  padding: 0px;
+}
