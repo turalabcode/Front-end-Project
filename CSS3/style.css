@@ -387,3 +387,17 @@ li.footer-end {
   display: flex;
   align-items: center;
 }
+
+.btn-buy-rent {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-buy-rent-2 {
+  background-color: white;
+  border: 25px;
+}
+
+.btn-buy-rent-2:hover {
+  color: red;
+}
