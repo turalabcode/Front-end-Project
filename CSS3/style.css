@@ -307,6 +307,21 @@ li.footer-end {
   justify-content: space-between;
 }
 
+.btn-buy-rent {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-buy-rent-2 {
+  background-color: white;
+  border: 25px;
+}
+
+.btn-buy-rent-2:hover {
+  color: red;
+}
+
+
 /* Bu sətrdən artıq Listing başlayır. */
 
 .search-text {
@@ -388,16 +403,10 @@ li.footer-end {
   align-items: center;
 }
 
-.btn-buy-rent {
-  display: flex;
-  justify-content: center;
-}
 
-.btn-buy-rent-2 {
-  background-color: white;
-  border: 25px;
-}
+/* All Agents hissesi */
 
-.btn-buy-rent-2:hover {
+.simple-listing {
   color: red;
 }
+

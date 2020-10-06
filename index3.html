@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Listing</title>
+    <title>All Agents</title>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
@@ -42,7 +42,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-              <a class="nav-link" href="/index.html">Home</a>
+              <a class="nav-link" href="#">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/index2.html">Listing</a>
@@ -73,9 +73,12 @@
 
     <main>
       <div class="container">
-        <div class="row listing-grid">
+        <div class="row">
           <div class="listing col-md-12">
-            <h6>Home / Simple Listing - Grid View</h6>
+            <h6>
+              Home /
+              <span class="simple-listing">Simple Listing - Grid View</span>
+            </h6>
             <h2>Simple Listing - Grid View 3</h2>
           </div>
 
@@ -85,90 +88,34 @@
                 <div class="form-group">
                   <input
                     type="text"
-                    placeholder="keyword"
+                    placeholder="Enter Agent Name"
                     class="search-text"
                   />
                 </div>
-                <div class="form-group">
-                  <input
-                    type="text"
-                    placeholder="Location"
-                    class="search-text"
-                  />
-                </div>
-                <div class="form-group">
-                  <input type="text" placeholder="Status" class="search-text" />
-                </div>
-                <div class="form-group">
-                  <input
-                    type="text"
-                    placeholder="Property Type"
-                    class="search-text"
-                  />
-                </div>
-                <div class="form-group">
-                  <input type="text" placeholder="Price" class="search-text" />
-                </div>
-                <div class="form-group">
-                  <input
-                    type="text"
-                    placeholder="Bathrooms"
-                    class="search-text"
-                  />
-                </div>
-                <div class="form-group">
-                  <input
-                    type="text"
-                    placeholder="Bedrooms"
-                    class="search-text"
-                  />
-                </div>
-                <div class="form-group">
-                  <input
-                    type="text"
-                    placeholder="Garages"
-                    class="search-text"
-                  />
-                </div>
-                <div class="form-group">
-                  <input
-                    type="text"
-                    placeholder="Year built"
-                    class="search-text"
-                  />
-                </div>
-                <div class="form-group">
-                  <input
-                    type="text"
-                    placeholder="Min area"
-                    class="search-text"
-                  />
-                </div>
-                <div class="form-group">
-                  <input
-                    type="text"
-                    placeholder="Max area"
-                    class="search-text"
-                  />
-                </div>
+
                 <div class="form-group">
                   <select class="form-control" id="exampleFormControlSelect1">
-                    <option>Advanced features</option>
-                    <option>Air Conditioning</option>
-                    <option>Barbeque</option>
-                    <option>Gym</option>
-                    <option>Microwave</option>
-                    <option>TV Cable</option>
-                    <option>Lawn</option>
-                    <option>Refrigerator</option>
-                    <option>Swimming Pool</option>
-                    <option>WiFi</option>
-                    <option>Sauna</option>
-                    <option>Dryer</option>
-                    <option>Washer</option>
-                    <option>Laundry</option>
-                    <option>Outdoor Shower</option>
-                    <option>Window Coverings</option>
+                    <option>All Categories</option>
+                    <option>Apartment</option>
+                    <option>Bungalow</option>
+                    <option>Condo</option>
+                    <option>House</option>
+                    <option>Land</option>
+                    <option>Single Family</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <select class="form-control" id="exampleFormControlSelect1">
+                    <option>All Cities</option>
+                    <option>Atlanta</option>
+                    <option>Florida</option>
+                    <option>Los Angeles</option>
+                    <option>Miami</option>
+                    <option>New York</option>
+                    <option>Orlando</option>
+                    <option>Şuşa</option>
+                    <option>Xankəndi</option>
                   </select>
                 </div>
                 <button
@@ -179,6 +126,43 @@
                 </button>
               </div>
             </form>
+            <br />
+            <hr />
+            <br />
+            <div class="featured-properties-2 owl-carousel owl-theme">
+              <div class="card mx-auto" style="width: 18rem">
+                <img src="/Images/box-1.jpg" class="card-img-top" alt="..." />
+              </div>
+              <div class="card mx-auto" style="width: 18rem">
+                <img src="/Images/box-2.jpg" class="card-img-top" alt="..." />
+              </div>
+              <div class="card mx-auto" style="width: 18rem">
+                <img src="/Images/box-3.jpg" class="card-img-top" alt="..." />
+              </div>
+              <div class="card mx-auto" style="width: 18rem">
+                <img src="/Images/box-4.jpg" class="card-img-top" alt="..." />
+              </div>
+              <div class="card mx-auto" style="width: 18rem">
+                <img src="/Images/box-5.jpg" class="card-img-top" alt="..." />
+              </div>
+            </div>
+            <br><hr><br>
+            <div class="row">
+                <ul class="col-md-6">
+                    <li><a href="#">Apartment</a></li>
+                    <li><a href="#">Condo</a></li>
+                    <li><a href="#">Family House</a></li>
+                    <li><a href="#">Modern Villa</a></li>
+                    <li><a href="#">Town House</a></li>
+                </ul>
+                <ul class="col-md-6">
+                    <li><a href="#">6 propersities</a></li>
+                    <li><a href="#">12 properties</a></li>
+                    <li><a href="#">8 properties</a></li>
+                    <li><a href="#">26 properties</a></li>
+                    <li><a href="#">89 properties</a></li>
+                </ul>
+            </div>
           </div>
           <div class="second-div col-md-8">
             <div class="row search-results col-md-12">
@@ -202,95 +186,118 @@
                     <option>Featured 5th</option>
                   </select>
                 </div>
-                
               </div>
               <div class="row boxes">
                 <div class="col-md-6 card-box">
                   <div class="card card-listing">
-                    <img src="/Images/listing-home-1.jpg" class="card-img-top" alt="..." />
+                    <img
+                      src="/Images/human1.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
                     <div class="card-body">
-                      <p class="listing-p">Apartment</p>
-                      <h5 class="card-title">Renovated Apartment</h5>
+                      
+                      <h5 class="card-title">Christopher Pakulla</h5>
                       <p class="card-text listing-city">
                         1421 San Pedro St, Los Angeles, CA 90015
                       </p>
                       <pre>Beds: 4 Baths: 2 Sq Ft: 5280</pre>
-                      <hr>
+                      <hr />
                       <pre><img src="/Images/ali-tufan.png" alt=""> Ali Tufan       4 years ago</pre>
                     </div>
                   </div>
                 </div>
                 <div class="col-md-6 card-box">
                   <div class="card card-listing">
-                    <img src="/Images/listing-home-2.jpg" class="card-img-top" alt="..." />
+                    <img
+                      src="/Images/human2.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
                     <div class="card-body">
-                      <p class="listing-p">Villa</p>
-                      <h5 class="card-title">Gorgeous Villa Bay View</h5>
+                      
+                      <h5 class="card-title">Anna Harrison</h5>
                       <p class="card-text listing-city">
                         1421 San Pedro St, Los Angeles, CA 90015
                       </p>
                       <pre>Beds: 4 Baths: 2 Sq Ft: 5280</pre>
-                      <hr>
+                      <hr />
                       <pre><img src="/Images/ali-tufan.png" alt=""> Ali Tufan       4 years ago</pre>
                     </div>
                   </div>
                 </div>
                 <div class="col-md-6 card-box">
                   <div class="card card-listing">
-                    <img src="/Images/listing-home-3.jpg" class="card-img-top" alt="..." />
+                    <img
+                      src="/Images/human3.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
                     <div class="card-body">
-                      <p class="listing-p">Single Family Home</p>
+                      
                       <h5 class="card-title">Luxury Family Home</h5>
                       <p class="card-text listing-city">
                         1421 San Pedro St, Los Angeles, CA 90015
                       </p>
                       <pre>Beds: 4 Baths: 2 Sq Ft: 5280</pre>
-                      <hr>
+                      <hr />
                       <pre><img src="/Images/ali-tufan.png" alt=""> Ali Tufan       4 years ago</pre>
                     </div>
                   </div>
                 </div>
                 <div class="col-md-6 card-box">
                   <div class="card card-listing">
-                    <img src="/Images/listing-home-4.jpg" class="card-img-top" alt="..." />
+                    <img
+                      src="/Images/human4.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
                     <div class="card-body">
-                      <p class="listing-p">Apartment</p>
+                      
                       <h5 class="card-title">Luxury Family Home</h5>
                       <p class="card-text listing-city">
                         1421 San Pedro St, Los Angeles, CA 90015
                       </p>
                       <pre>Beds: 4 Baths: 2 Sq Ft: 5280</pre>
-                      <hr>
+                      <hr />
                       <pre><img src="/Images/ali-tufan.png" alt=""> Ali Tufan       4 years ago</pre>
                     </div>
                   </div>
                 </div>
                 <div class="col-md-6 card-box">
                   <div class="card card-listing">
-                    <img src="/Images/listing-home-5.jpg" class="card-img-top" alt="..." />
+                    <img
+                      src="/Images/human5.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
                     <div class="card-body">
-                      <p class="listing-p">Apartment/p>
+                      
                       <h5 class="card-title">Renovated Apartment</h5>
                       <p class="card-text listing-city">
                         1421 San Pedro St, Los Angeles, CA 90015
                       </p>
                       <pre>Beds: 4 Baths: 2 Sq Ft: 5280</pre>
-                      <hr>
+                      <hr />
                       <pre><img src="/Images/ali-tufan.png" alt=""> Ali Tufan       4 years ago</pre>
                     </div>
                   </div>
                 </div>
                 <div class="col-md-6 card-box">
                   <div class="card card-listing">
-                    <img src="/Images/listing-home-6.jpg" class="card-img-top" alt="..." />
+                    <img
+                      src="/Images/human6.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
                     <div class="card-body">
-                      <p class="listing-p">Villa</p>
-                      <h5 class="card-title">Gorgeous Villa Bay View</h5>
+                      
+                      <h5 class="card-title">Renovated Apartment</h5>
                       <p class="card-text listing-city">
                         1421 San Pedro St, Los Angeles, CA 90015
                       </p>
                       <pre>Beds: 4 Baths: 2 Sq Ft: 5280</pre>
-                      <hr>
+                      <hr />
                       <pre><img src="/Images/ali-tufan.png" alt=""> Ali Tufan       4 years ago</pre>
                     </div>
                   </div>
