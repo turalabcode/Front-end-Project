@@ -40,7 +40,7 @@ ul.navbar-nav {
 }
 
 .home-page {
-  background-image: url(/Images/background-img.jpg);
+  background-image: url(background-img.jpg);
   height: 900px;
   background-repeat: no-repeat;
 }
@@ -173,7 +173,7 @@ p.city-p {
 
 
 .testimonials {
-  background-image: url(/Images/bg-img.jpg);
+  background-image: url(bg-img.jpg);
   height: 700px;
   box-sizing: border-box;
   padding: 40px;
